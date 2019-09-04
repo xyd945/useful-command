@@ -1,0 +1,12 @@
+Remove JDK
+sudo rm -rf /Library/Java/JavaVirtualMachines/jdk-xx.x.x.jdk
+
+Remove Java
+In the Terminal window Copy and Paste the commands below:
+sudo rm -fr /Library/Internet\ Plug-Ins/JavaAppletPlugin.plugin 
+sudo rm -fr /Library/PreferencePanes/JavaControlPanel.prefPane 
+sudo rm -fr ~/Library/Application\ Support/Oracle/Java
+
+
+Install JDK
+Just download the jdk file, a folder "jdk-xx.x.x.jdk", and copy it into this dir /Library/Java/JavaVirtualMachines
